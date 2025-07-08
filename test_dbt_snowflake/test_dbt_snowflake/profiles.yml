@@ -8,4 +8,4 @@ test_dbt_snowflake:
       database: 'DBT_HIDAKA_DB'
       schema: 'PUBLIC'
       account: ''
-      user: 'HIDAKA'
+      user: 'HIDAKa'
