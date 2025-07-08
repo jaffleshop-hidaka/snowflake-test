@@ -1,0 +1,11 @@
+test_dbt_snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: 'SYSADMIN'
+      warehouse: 'MYTESTWH1_HIDAKA'
+      database: 'DBT_HIDAKA_DB'
+      schema: 'PUBLIC'
+      account: ''
+      user: 'HIDAKA'
