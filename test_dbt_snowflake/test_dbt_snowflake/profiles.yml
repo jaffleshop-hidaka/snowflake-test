@@ -1,0 +1,13 @@
+test_dbt_snowflake:
+  outputs:
+    dev:
+      account: HX01803-DELIVBOX
+      database: DBT_HIDAKA_DB
+      password: 0922Hirotohidaka!
+      role: SYSADMIN
+      schema: STAGING_SCHEMA
+      threads: 1
+      type: snowflake
+      user: HIDAKA
+      warehouse: MYTESTWH1_HIDAKA
+  target: dev
